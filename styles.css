@@ -1,0 +1,490 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;;
+    padding: 6%;
+    padding-top: 3em;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.flex-container img {
+    object-fit: contain;
+}
+
+.flex-container div {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.flex-container button {
+    min-width: max-content;
+    width: 6em;
+    border: none;
+    background: none;
+    margin:5%;
+    color: hsl(243, 87%, 12%);
+}
+
+.flex-container button:hover {
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-pic-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.section-text {
+    width: 50%;
+    height: fit-content;
+    padding: 3%;
+}
+
+.card-pic-right img {
+    height: 90%;
+    object-fit: contain;
+    max-width: 50%;
+}
+
+.num1 h2 {
+    font-size: 38px;
+    color: hsl(243, 87%, 12%);
+}
+
+.num1 p {
+    margin: 5% 15% 4% 0;
+    color: hsl(243, 87%, 12%);
+}
+
+.num1 form {
+    display: flex;
+    width: 90%;
+}
+
+.num1 form input {
+    width: 60%;
+    padding: 3%;
+    margin-right: 4%;
+    border-radius: 5px;
+    border: 1px solid  hsl(243, 87%, 12%);
+}
+
+.num1 form input::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+.num1 form input:focus {
+    outline: none;
+}
+
+.num1 form button {
+    width: 45%;
+    padding: 3%;
+    background: hsl(224, 93%, 58%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px #aaa;
+    transition: all 0.2s ease-in-out;
+}
+
+.num1 form button:hover {
+    background: #6991ff;
+}
+
+.bg1 {
+    background: url("images/bg-curve-desktop.svg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    width: 100%;
+    height: 8em;
+}
+
+.num2 {
+    background: hsl(240, 75%, 98%);
+}
+
+.num2 .section-text {
+    width: 55%;
+    padding-right: 0;
+    display: flex; 
+    flex-direction: column;
+    color: hsl(243, 87%, 12%);
+}
+
+.num2 h2 {
+    margin-bottom: 4%;
+    font-size: 38px;
+}
+
+.p2 {
+    margin: 1.5% 0;
+    padding-right: 25%;
+    color: hsl(238, 22%, 44%);
+}
+
+.num2 .section-text a {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    transition: all 0.2s ease-in-out;
+}
+
+.num2 .section-text a:hover {
+    color: #0dc;
+    border-bottom: 1px solid #0dc;
+}
+
+.num2 .section-text a p {
+    width: fit-content;
+}
+
+.arrow {
+    margin-left: 6px;
+    width: 1em;
+}
+
+.card {
+    width: 60%;
+    max-width: 450px;
+    margin-top: 5%;
+    padding: 5%;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow: 0px 0px 10px #ddd;
+    border-radius: 7px;
+}
+
+.card div {
+    display: flex;
+    align-items: center;
+}
+
+.comment {
+    padding: 4% 0;
+}
+
+.avatar {
+    width: 17%;
+    border-radius: 100%;
+    margin-right: 5%;
+}
+
+.num3  {
+    background:  hsl(238, 22%, 44%);
+    padding: 13vh 7%;
+    /* width: 100%; */
+    box-sizing: border-box;
+    display: flex;
+}
+
+.num3 .section-text{
+   padding: 0;
+}
+
+.num3 h2 {
+    font-size:38px;
+    margin: 5% 0;
+    color: #fff;
+}
+
+.num3 p {
+    padding-right: 20%;
+    color: #fff;
+}
+
+.num3 form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+}
+
+.num3 form input {
+    width: 100%;
+    padding: 2.5%;
+    margin: 3% 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+}
+
+.num3 form input::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+.num3 form input:focus {
+    outline: none;
+}
+
+.num3 form button {
+    padding: 3% 7%;
+    background: hsl(224, 93%, 58%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+}
+
+.num3 form button:hover {
+    background: #6991ff;
+}
+
+footer {
+    width: 100%;
+    padding: 10vh 7% 7vh;
+    box-sizing: border-box;
+    position: relative;
+    background:  hsl(243, 87%, 12%);
+    color: #fff;
+}
+
+.footer-logo {
+    width: 20%;
+    object-fit: contain;
+    margin-bottom: 6%;
+    filter: brightness(-100%) invert(100%);
+}
+
+.footer {
+    display: grid; 
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.footer1 div {
+    display: flex;
+    align-items: flex-start;
+    padding-right: 15%;
+    margin-bottom: 5%;
+}
+
+.footer1 img {
+    margin-right: 5%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer2 {
+    margin-bottom: 7%;
+}
+
+.footer4 {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.footer4 img {
+    width: 30px;
+    margin-right: 8%;
+    border-radius: 100%;
+    filter: invert(100%);
+}
+
+
+.footer li {
+    margin-bottom: 10%;
+    list-style-type: none;
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .flex-container {
+        padding-top: 1vh;
+        margin: 0 auto;
+    }
+
+    .flex-container img {
+        max-width: 25%;
+        align-content: center;
+    }
+
+    .flex-container button {
+         width: 4em; 
+    }
+
+    .main {
+        padding-top: 3em;
+    }
+
+    .card-pic-right {
+        flex-direction: column-reverse;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5%;
+    }
+
+    .card-pic-left img, .card-pic-right img {
+        height: auto;
+        width: 100%;
+        max-height: 70%;
+        max-width: 100%;
+    }
+
+    .section-text {
+        width: 100%;
+    }
+
+    .section-text h2, .section-text p {
+        text-align: center;
+
+    }
+
+    .num2 .section-text p {
+        text-align: justify;
+    }
+
+    .num1 form {
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .num1 p, .p2, .num3 p {
+        width: 100%;
+    }
+
+    .num1 p {
+        margin: 8% 0;
+    }
+
+    .num1 form input, .num1 form button {
+        width: 100%;
+        margin: 2% 0;
+        box-sizing: border-box;
+    }
+
+    .bg1 {
+        background-image: url("images/bg-curve-mobile.svg");
+    }
+
+    .num2 {
+        padding-bottom: 10vh;
+    }
+
+    .num2 .section-text {
+        width: 100%;
+    }
+
+    .num2 h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .num2 .section-text a {
+        margin: 8% auto;
+    }
+    .num2 .section-text a img {
+        width: 1em;
+    }
+
+    .p2, .num3 .section-text p {
+        padding: 0;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card .quotes {
+        width: 20px;
+    }
+
+    .card .avatar {
+        width: 2em;
+    }
+
+    .num3 {
+        flex-direction: column;
+        padding: 7vh 7%;
+    }
+
+    .num3 .section-text {
+        width: 95%;
+    }
+
+    .num3 form {
+        width: 80%;
+        margin: 7% 0;
+    }
+
+    .num3 button {
+        width: 100%;
+    }
+
+    footer {
+        padding: 4%;
+        padding-top: 20%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 45%;
+        max-width: 250px;
+    }
+
+    .footer1 {
+        margin-bottom: 10%;
+    }
+
+    .footer1 div {
+        padding-right: 0;
+    }
+
+    .footer li {
+        margin-bottom: 4%;
+    }
+
+    .footer3 {
+        margin-bottom: 2em;
+    }
+
+    .footer4 {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer4 img {
+        margin: .2em;
+    }
+
+    .social {
+        width: 100%;
+        text-align: center;
+    }
+}
